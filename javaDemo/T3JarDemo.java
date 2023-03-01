@@ -9,9 +9,7 @@ public class T3JarDemo {
     public static void main(String[] args)    
     {    
         Process p;    
-       //test.bat中的命令是ipconfig/all    
-        String cmd="ls";    
-           
+        String cmd="/Users/chenmeng08/t3jar/t3javaVM/temurin-11.jdk/Contents/Home/bin/java -jar bars-sdk-0.3.2.jar -f /Users/chenmeng08/t3jar/157627981430836325_1677020832798.mp4 -i /3a20f734a8824d1b916808ac8be5c618/157627704190576357/157627981430836325/157627981430836325_1677020832798.mp4 -t f68feaf5e590e90680b79570cb17e13a -o decrypt.mp4";    
        try    
         {    
            //执行命令    
